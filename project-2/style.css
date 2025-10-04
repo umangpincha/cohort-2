@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'apple';
+    src: url(./sf-pro-display_semibold.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    padding: 20px;
+    opacity: 0.7;
+}
+
+.fa-brands{
+    font-size: 18px;
+}
+
+.fa-magnifying-glass{
+    font-size: 15px;
+}
+
+.fa-bag-shopping{
+    font-size: 15px;
+}
+
+#banner1{
+    height: 650px;
+    width: 100%;
+    background-image: url(https://www.apple.com/in/home/heroes/diwali-2025/images/hero_diwali_2025_endframe__kjxalx8t7ia2_small_2x.jpg);
+    background-size: cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    font-family: 'apple';
+}
+
+#gifts h2{
+    color: #000000;
+    font-size: 50px;
+}
+
+#offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#offer p{
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 30;
+    font-family: 'helvetica';
+}
+
+
+#shopnow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#shopnow button{
+    border-radius: 40px;
+    height: 30px;
+    text-align: center;
+    border-color: #4689D8;
+    background-color: #4689D8;
+    width: 7%;
+    color: #ffff;
+    font-family: 'helvetica';
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    font-weight: 8;
+    height: 50px;
+}
+
+
+#banner2{
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+#banner2 h1{
+    margin-top: 40px;
+    font-family: 'helvetica';
+    font-size: 60px;
+}
+
+
+#banner3{
+    height: 450px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large_2x.jpg);
+    background-size: cover;
+    background-position: center;;
+}
+#banner3 p{
+    color: #ffff;
+    font-family: 'helvetica';
+    font-size: 30px;
+}
+
+#learnmore{
+    margin-top: 20px;
+}
+
+#learnmore button{
+    border-radius: 40px;
+    height: 30px;
+    text-align: center;
+    font-family: 'helvetica';
+    text-align: center;
+    font-size: 15px;
+    font-weight: 8;
+    height: 50px;
+}
+
+#learnmore #b1{
+    margin-right: 10px;
+    background-color: #2671E3;
+    color: #ffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 11%;
+}
+
+#learnmore #b2{
+    background-color: transparent;
+    color: #4689D8;
+    border-color: #3c70ac;
+    width: 11%;
+}

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "myFont";
+    src: url(./NotoSansJP-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* #box1{
+    height: 200px;
+    width: 200px;
+    /* background: linear-gradient(to right bottom , orange, white,green); */
+    /* background: radial-gradient(orange, white,green); */
+    /* background-image: ; */
+/* } */
+
+/* TODO: Percenatege dene par div apne parent ke hisab se size leta hai. */
+/* #outer{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+}
+
+#inner{
+    height: 30%;
+    width: 50%;
+    background-color: red;
+} */
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/259772/pexels-photo-259772.jpeg);
+    background-size:cover;
+    background-position:  center;
+    text-align: center;
+}
+
+h1{
+    font-family: myFont;
+    color: #ffff;
+    font-size: 90px;
+    font-weight: 1000;
+    padding: 70px;
+}
+
+button {
+    max-width: 320px;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    gap: 0.75rem;
+    color: rgb(65, 63, 63);
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .6s ease;
+    /* background-color: transparent; */
+}
+
+.button svg {
+    height: 24px;
+  }
+  
+  button:hover {
+    transform: scale(1.02);
+  }

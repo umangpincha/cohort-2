@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'myText';
+    src: url(./myText2.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.name{
+    height:10%;
+    width: 100%;
+    background-color: #063970;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: myText;
+    font-weight:lighter;
+}
+
+.aboutme{
+    height: 30%;
+    width: 90%;
+    background-color: #f0f8ff;
+    text-align: center;
+    font-family: myText;
+    font-weight:lighter;
+    font-size: 20px;
+    padding-top: 5%;
+    background-color: #ffff;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#more-about-me{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.education{
+    height: 40%;
+    width: 90%;
+    text-align: center;
+    font-family: myText;
+    font-weight:lighter;
+    font-size: 20px;
+    padding-top: 5%;
+    background-color: #abdbe3;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#course{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+}
+
+#school{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    margin-top: 1%;
+}
+#edu{
+    margin-bottom: 1%;
+}
+
+
+.skills{
+    height: 40%;
+    width: 90%;
+    text-align: center;
+    font-family: myText;
+    font-weight:lighter;
+    font-size: 20px;
+    padding-top: 5%;
+    background-color: rgb(241, 241, 191);
+    margin: auto;
+    margin-top: 5%;
+}
+
+#skills1{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+#skills2{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+#skills3{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+}
+
+.projects{
+    height: 40%;
+    width: 90%;
+    text-align: center;
+    font-family: myText;
+    font-weight:lighter;
+    font-size: 20px;
+    padding-top: 5%;
+    background-color: rgb(199, 122, 199);
+    margin: auto;
+    margin-top: 5%;
+}
+
+#project1{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+#project2{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+#project3{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+}
+
+
+
+
+.contact{
+    height: 40%;
+    width: 90%;
+    text-align: center;
+    font-family: myText;
+    font-weight:lighter;
+    font-size: 20px;
+    padding-top: 5%;
+    background-color: rgb(209, 240, 209);
+    margin: auto;
+    margin-top: 5%;
+}
+
+#mobno{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+#email{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+#insta{
+    font-size: 15px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+
+
+.footer{
+    height:10%;
+    width: 100%;
+    background-color: #063970;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: myText;
+    font-weight:lighter;
+    padding-top: 2%;
+}
