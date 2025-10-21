@@ -331,11 +331,11 @@ main section.view7 .contact-container {
   display: flex;
   flex-direction: column;
   gap: 0rem;
+  align-items: center;
   color: black;
   background-color: #CEBD63;
   border-radius: 10px;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1.5rem;
 }
 main section.view7 .contact-container .contact-content {
@@ -346,7 +346,7 @@ main section.view7 .contact-container .contact-content .contact-label {
   font-size: 1.2rem;
 }
 main section.view7 .contact-container .contact-content .contact-text {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 main section.view7 .contact-container .contact-button {
   background-color: black;
@@ -358,7 +358,7 @@ main section.view7 .contact-container .contact-button {
   font-size: 1rem;
   cursor: pointer;
   color: #fff;
-  width: 80%;
+  width: 90%;
   text-align: center;
   margin-top: -2rem;
   margin-bottom: 2rem;
@@ -368,7 +368,7 @@ main section.view7 .contact-container .contact-button .cta-button {
   text-decoration: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   main section.view1 {
     display: flex;
     flex-direction: row;
@@ -523,6 +523,6 @@ main section.view7 .contact-container .contact-button .cta-button {
     font-size: 5rem;
   }
   main section.view7 .contact-container .contact-button {
-    width: 15%;
+    width: 20%;
   }
 }/*# sourceMappingURL=style.css.map */
