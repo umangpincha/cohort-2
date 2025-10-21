@@ -1,0 +1,47 @@
+@import "background";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "aside top-right top-right top-right"
+                         "aside one two three";
+    gap: 10px;
+    aside{
+        // background-color: rebeccapurple;
+        grid-area: aside;
+        @include bgimg("https://images.pexels.com/photos/7465580/pexels-photo-7465580.jpeg");
+    }
+    #top-right{
+        background-color: crimson;
+        grid-area: top-right;
+        @include bgimg("https://images.pexels.com/photos/7578734/pexels-photo-7578734.jpeg");
+    }
+    #one{
+        background-color: greenyellow;
+        grid-area:one;
+        @include bgimg("https://images.pexels.com/photos/7708401/pexels-photo-7708401.jpeg")
+    }
+    #two{
+        background-color:brown;
+        grid-area: two;
+        @include bgimg("https://images.pexels.com/photos/22845394/pexels-photo-22845394.jpeg");
+    }
+    #three{
+        background-color:bisque;
+        grid-area: three;
+        @include bgimg("https://images.pexels.com/photos/12900904/pexels-photo-12900904.jpeg")
+    }
+}

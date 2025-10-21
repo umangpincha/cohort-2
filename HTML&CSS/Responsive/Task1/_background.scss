@@ -1,0 +1,5 @@
+@mixin bgimg($image-url ,$bg-size:cover , $bg-position:center){
+    background-image: url(#{$image-url});
+    background-size: $bg-size;
+    background-position:$bg-position;
+}

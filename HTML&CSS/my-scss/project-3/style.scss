@@ -1,0 +1,48 @@
+@import "image";
+@import "background";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    section{
+        height: 100%;
+        flex-grow: 1;
+        transition: all  0.5s ease;
+        cursor: pointer;
+    }
+
+    section:nth-child(1){
+        @include bgimg("https://images.pexels.com/photos/29632743/pexels-photo-29632743.jpeg")
+    }
+    section:nth-child(2){
+        @include bgimg("https://images.pexels.com/photos/16889723/pexels-photo-16889723.jpeg");
+    }
+    section:nth-child(3){
+        @include bgimg("https://images.pexels.com/photos/34284811/pexels-photo-34284811.jpeg");
+    }
+    section:nth-child(4){
+        @include bgimg("https://images.pexels.com/photos/33488221/pexels-photo-33488221.jpeg");
+    }
+    section:nth-child(5){
+        @include bgimg("https://images.pexels.com/photos/34136522/pexels-photo-34136522.jpeg")
+    }
+
+    section:hover{
+        flex-grow: 2;
+    }   
+
+}
+

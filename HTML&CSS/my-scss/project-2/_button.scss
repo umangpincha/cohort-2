@@ -1,0 +1,8 @@
+@mixin button-var($btn-color){
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: $btn-color;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+}

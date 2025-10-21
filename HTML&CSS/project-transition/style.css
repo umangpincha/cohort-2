@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding: 10px;
+}
+
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card .bottom{
+    height: 40%;
+    width: 100%;
+    background-color: rebeccapurple;
+    position: absolute;
+    bottom: -40%;
+    background: linear-gradient(transparent, black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card:hover .bottom{
+    bottom: 0;
+    transition: all ease 0.5s;
+}
+
+.card h1{
+    color:#fff;
+}
+
+.card h4{
+    color:#fff;
+}

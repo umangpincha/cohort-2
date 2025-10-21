@@ -1,0 +1,12 @@
+TODO:
+
+1) Pixels(px) ke size fixed hot hain , bade chote nhn ho skte
+2) percentage(%) depends on parent
+3) Viewport Width(vw) depending on screen width.
+4) Viewport Height(vh) depending on screen height.
+5) viewport maximum (vmax) , takes sizes whichever is maximum be it height or width.
+6) viewport minimum (vmin) , takes sizes whichever is minimum  be it height or width.
+7) em parent ke according size leta hai , for eg: parent ka size 20px hai toh and child ka 1 rem
+toh font size 20 px hogah (i.e 20*1) , em = em square
+8) 1rem = 16px , it is according to root.
+9) ch (character width)

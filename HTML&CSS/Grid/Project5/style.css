@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "left-up top-up div-top"
+                        "left-up top-down div-right"
+                        "left-bottom left-bottom div-right";
+    gap: 10px;
+                        
+}
+
+#left-up{
+    background-color:aqua;
+    grid-area: left-up;
+}
+
+#top-up{
+    background-color:lightgreen;
+    grid-area: top-up;
+}
+
+#top-down{
+    background-color:lightcoral;
+    grid-area: top-down;
+}
+
+#div-top{
+    background-color:beige;
+    grid-area: div-top;
+}
+
+#left-bottom{
+    background-color:blue;
+    grid-area: left-bottom;
+}
+#div-right{
+    background-color:rebeccapurple;
+    grid-area: div-right;
+}

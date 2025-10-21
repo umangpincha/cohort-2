@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+main section {
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-transition: all  0.5s ease;
+  transition: all  0.5s ease;
+  cursor: pointer;
+}
+
+main section:nth-child(1) {
+  background-image: url(https://images.pexels.com/photos/29632743/pexels-photo-29632743.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+main section:nth-child(2) {
+  background-image: url(https://images.pexels.com/photos/16889723/pexels-photo-16889723.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+main section:nth-child(3) {
+  background-image: url(https://images.pexels.com/photos/34284811/pexels-photo-34284811.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+main section:nth-child(4) {
+  background-image: url(https://images.pexels.com/photos/33488221/pexels-photo-33488221.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+main section:nth-child(5) {
+  background-image: url(https://images.pexels.com/photos/34136522/pexels-photo-34136522.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+main section:hover {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+/*# sourceMappingURL=style.css.map */

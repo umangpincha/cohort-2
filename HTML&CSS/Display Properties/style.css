@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.815);
+}
+/* h1{
+    background-color: red;
+    display: inline-block;
+} */
+
+/* #card{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+
+#box{
+    background-color: red;
+    border: 2px solid black;
+}
+
+#box:nth-child(2n){
+    background-color: green;
+} 
+#box:nth-child(3n){
+    background-color: blue;
+}  */
+
+/* h1{
+    font-size: 200px;
+    /* color: transparent;
+    background: url(https://imgs.search.brave.com/sH2w2ybEGH69cwIT_-Whr-eHURchC3jSiZvTMCm06U8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTQuZ2lwaHkuY29t/L21lZGlhL0RiTXFR/N2N1bm1NMzYvZ2lw/aHkuZ2lmP2NpZD03/OTBiNzYxMWQyOXhp/c2ZiOXdtY2c2NWxh/MHA2dXhjZnZnbWFj/YTBxcDdoejA2NzIm/ZXA9djFfZ2lmc19z/ZWFyY2gmcmlkPWdp/cGh5LmdpZiZjdD1n.gif);
+    background-clip: text;
+    text-align: center; 
+    color: transparent;
+    -webkit-text-stroke: 3px red;
+/* }   */
+
+
+#parent{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.162);
+    display: flex;
+    gap: 3px;
+    flex-wrap: nowrap;
+    overflow:auto;
+    overflow-y: hidden;
+}
+
+#parent::-webkit-scrollbar{  
+    background-color: lightcoral;
+    height: 8px;
+}
+#parent::webkit-scrollbar-corner{
+    background-color: transparent;
+}
+#parent::-webkit-scrollbar-thumb{
+    background-color: blue;
+}
+
+#child{
+    height: 100%;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+#child img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
